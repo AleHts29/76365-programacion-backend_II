@@ -24,7 +24,7 @@ router.post('/register', async (req, res) => {
         last_name,
         email,
         age,
-        password // <--- se encrypta
+        password // <--- se encrypta: 123admin : $2a$12$ZiL4D5W/RaYt5vwPAsom6eBp63UiFeadp8Bknb/FwhPgWJWiMmsdq
     }
 
     // 02 - doy de alta a newUser
