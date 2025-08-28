@@ -120,7 +120,9 @@ const initializePassport = () => {
 
                 // Validamos el password con Bcrypt
                 if (!isValidPassword(user.password, password)) {
-                    return res.status(401).send({ status: "error", error: "Credenciales incorrectas" })
+                    console.log("error en la validacion de credenciales - isValidPassword ");
+
+                    return done(null, false)
                 }
 
                 done(null, user)
