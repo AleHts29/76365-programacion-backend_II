@@ -51,7 +51,7 @@ export default class UsersExtendRouter extends CustomRouter {
                 };
                 const access_token = generateJWToken(tokenUser);
                 console.log(access_token);
-                // res.send({ message: "Login successful!", access_token: access_token, id: user._id });
+
 
                 res.sendSuccess(access_token)
             } catch (error) {
