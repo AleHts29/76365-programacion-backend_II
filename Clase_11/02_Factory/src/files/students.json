@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Luis",
+        "lastName": "Munar",
+        "age": "20",
+        "courses": [
+            {
+                "course": "640a50b976f699a3ccbf5e13"
+            }
+        ],
+        "id": 12786
+    },
+    {
+        "name": "test07",
+        "lastName": "Alvarez",
+        "age": "25",
+        "password": "123qwe",
+        "fullName": "test07 - Alvarez",
+        "id": 16014
+    }
+]
